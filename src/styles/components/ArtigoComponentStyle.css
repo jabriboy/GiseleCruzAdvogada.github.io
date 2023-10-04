@@ -1,0 +1,24 @@
+.artigo-banner {
+  background: #5D1212;
+  width: 45%;
+  justify-content: space-between;
+  border-radius: 4.625rem;
+}
+.artigo-banner img {
+  width: 100%;
+  margin-bottom: -5rem;
+}
+.artigo-banner h2 {
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 0px 4px 4px #000;
+  font-family: "Inter";
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.description {
+  margin-top: -1rem;
+  padding: 0 1rem 0 1rem;
+  color: #E3C9A4;
+}/*# sourceMappingURL=ArtigoComponentStyle.css.map */

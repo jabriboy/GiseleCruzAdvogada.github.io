@@ -1,0 +1,23 @@
+footer {
+  background: #5D1212;
+  margin: 0 auto;
+}
+footer h1 {
+  color: white;
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-align: center;
+}
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 2rem 4rem;
+  margin: 0;
+  justify-content: space-around;
+}
+footer ul img {
+  height: 5rem;
+  width: 5rem;
+}/*# sourceMappingURL=FooterStyle.css.map */

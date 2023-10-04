@@ -1,0 +1,25 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #5D1212;
+  padding: 0 4rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+nav ul {
+  margin: 0;
+  padding: 1rem 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+nav ul li {
+  height: -moz-min-content;
+  height: min-content;
+}/*# sourceMappingURL=NavBarStyle.css.map */

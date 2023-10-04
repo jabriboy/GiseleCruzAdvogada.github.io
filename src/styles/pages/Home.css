@@ -1,0 +1,149 @@
+h1 {
+  text-transform: capitalize;
+  font-size: 4rem;
+  font-weight: 400;
+  color: #1E1E1E;
+}
+
+h3 {
+  margin: 0 0 2rem 0;
+  font-family: "Inter";
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: #E3C9A4;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+}
+
+nav {
+  background: white;
+}
+nav a {
+  color: #1E1E1E;
+}
+
+.hero {
+  margin-top: 4rem;
+  background: #5D1212;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+.hero .right {
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+.hero .right h1 {
+  color: white;
+  margin: -1rem 0 -1.4rem 0;
+}
+.hero .right p {
+  margin-bottom: 4rem;
+}
+
+.servicos {
+  text-align: center;
+  margin: 0 4rem;
+}
+.servicos h1 {
+  margin: 2rem;
+}
+.servicos .about-servicos {
+  margin: 2rem auto;
+  width: 80%;
+}
+.servicos .banners {
+  display: flex;
+  justify-content: space-between;
+}
+.servicos .banners img {
+  margin-top: -4rem;
+  margin-bottom: -6rem;
+  opacity: 20%;
+}
+.servicos .banners h2 {
+  font-family: "Dancing Script";
+  text-transform: capitalize;
+  font-size: 3rem;
+  color: #E3C9A4;
+}
+.servicos .banners p {
+  color: white;
+}
+.servicos .banners .serv1 {
+  background: rgba(93, 18, 18, 0.4);
+  padding: 2rem 1rem;
+  margin: 0.5rem;
+  width: 30%;
+}
+.servicos .banners .serv1 h2 {
+  color: #89550A;
+}
+.servicos .banners .serv1 p {
+  color: #1E1E1E;
+}
+.servicos .banners .serv2 {
+  background: rgba(93, 18, 18, 0.6980392157);
+  padding: 2rem 1rem;
+  margin: 0.5rem;
+  width: 30%;
+}
+.servicos .banners .serv3 {
+  background: #5D1212;
+  padding: 2rem 1rem;
+  margin: 0.5rem;
+  width: 30%;
+}
+
+.sobre-mim {
+  background: #5D1212;
+  padding: 1rem 4rem;
+  display: flex;
+}
+.sobre-mim h1 {
+  color: #E3C9A4;
+  margin-bottom: 0;
+}
+.sobre-mim .left {
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+.sobre-mim .left .sobre-mim-text {
+  margin: 0 auto;
+  text-align: justify;
+  width: 80%;
+}
+.sobre-mim .left .content {
+  margin: 2rem auto;
+}
+.sobre-mim .right {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.artigos {
+  text-align: center;
+  margin: 1rem 4rem;
+}
+.artigos .banners-artigos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.artigos .ver-todos {
+  background: rgba(93, 18, 18, 0.4);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 3.125rem;
+  margin: 0 auto 4rem auto;
+}
+.artigos .ver-todos p {
+  font-size: 1.5rem;
+  color: #1E1E1E;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=Home.css.map */

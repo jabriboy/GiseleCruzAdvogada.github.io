@@ -1,0 +1,153 @@
+h1{
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+h3{
+    margin: 0 0 2rem 0;
+    font-family: "Inter";
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #E3C9A4;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .5rem;
+}
+
+
+nav{
+    background: white;
+    a{
+        color: #1E1E1E;
+    }
+}
+
+.hero{
+    margin-top: 4rem;
+    background: #5D1212;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    .left{
+        
+    }
+    .right{
+        width: 50%;
+        text-align: center;
+        color: white;
+        h1{
+            color: white;
+            margin: -1rem 0 -1.4rem 0;
+        }
+        p{
+            margin-bottom: 4rem;
+        }
+    }
+}
+
+.servicos{
+    text-align: center;
+    margin: 0 4rem;
+    h1{
+        margin: 2rem;
+    }
+    .about-servicos{
+        margin: 2rem auto;
+        width: 80%;
+    }
+    .banners{
+        display: flex;
+        justify-content: space-between;
+        img{
+            margin-top: -4rem;
+            margin-bottom: -6rem;
+            opacity: 20%;
+        }
+        h2{
+            font-family: 'Dancing Script';
+            text-transform: capitalize;
+            font-size: 3rem;
+            color: #E3C9A4;
+        }
+        p{
+            color: white;
+        }
+        .serv1{
+            background: #5D121266;
+            padding: 2rem 1rem;
+            margin: .5rem;
+            width: 30%;
+            h2{
+                color: #89550A;
+            }
+            p{
+                color: #1E1E1E;
+            }
+        }
+        .serv2{
+            background: #5D1212B2;
+            padding: 2rem 1rem;
+            margin: .5rem;
+            width: 30%;
+        }
+        .serv3{
+            background: #5D1212;
+            padding: 2rem 1rem;
+            margin: .5rem;
+            width: 30%;
+        }
+    }
+}
+
+.sobre-mim{
+    background: #5D1212;
+    padding: 1rem 4rem;
+    display: flex;
+    // justify-content: space-between;
+    h1{
+        color: #E3C9A4;
+        margin-bottom: 0;
+    }
+    .left{
+        width: 50%;
+        text-align: center;
+        color: white;
+        .sobre-mim-text{
+            margin: 0 auto;
+            text-align: justify;
+            width: 80%;
+        }
+        .content{
+            margin: 2rem auto;
+            
+        }
+    }
+    .right{
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.artigos{
+    text-align: center;
+    margin: 1rem 4rem;
+    .banners-artigos{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    .ver-todos{
+        background: #5D121266;
+        width: fit-content;
+        padding: .5rem 1rem;
+        border-radius: 3.125rem;
+        margin: 0 auto 4rem auto;
+        p{
+            font-size: 1.5rem;
+            color: #1E1E1E;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

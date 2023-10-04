@@ -1,0 +1,18 @@
+.content{
+    justify-content: space-around;
+    border-radius: 1.4375rem;
+    background: #25D366;
+    height: fit-content;
+    width: 8rem;
+    display: flex;
+    padding: .2rem;
+    img{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+        margin: 0;
+        color: white;
+    }
+}
