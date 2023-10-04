@@ -30,7 +30,9 @@ nav{
     justify-content: space-between;
     padding: 2rem 4rem;
     .left{
-        
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
     }
     .right{
         width: 50%;
@@ -103,29 +105,44 @@ nav{
 .sobre-mim{
     background: #5D1212;
     padding: 1rem 4rem;
-    display: flex;
-    // justify-content: space-between;
     h1{
         color: #E3C9A4;
         margin-bottom: 0;
-    }
-    .left{
-        width: 50%;
         text-align: center;
-        color: white;
-        .sobre-mim-text{
-            margin: 0 auto;
-            text-align: justify;
-            width: 80%;
-        }
-        .content{
-            margin: 2rem auto;
-            
-        }
     }
-    .right{
-        margin-top: 4rem;
-        margin-bottom: 3rem;
+    .sobre-mim-inner{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 4rem;
+        .left{
+            width: 60%;
+            text-align: center;
+            color: white;
+            .vertical-align{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                .sobre-mim-text{
+                    margin: 0 auto;
+                    text-align: justify;
+                    width: 70%;
+                }
+            }
+            .content{
+                margin: 2rem auto;
+                
+            }
+        }
+        .right{
+            width: 40%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 100%;
+            }
+        }
+
     }
 }
 
@@ -148,6 +165,147 @@ nav{
             color: #1E1E1E;
             margin: 0;
             padding: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 700px){
+    #root{
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    .hero{
+        justify-content: center;
+        .left{
+            display: none;
+        }
+        .right{
+            width: 100%;
+            img{
+                width: 5rem;
+            }
+            h3{
+                font-size: 1rem;
+                margin-top: .2rem;
+            }
+        }
+        p{
+            font-size: .8rem;
+        }
+    }
+
+    .servicos{
+        h1{
+            margin: 1rem;
+        }
+        .banners{
+            display: block;
+            .serv1{
+                width: fit-content;
+            }
+            .serv2{
+                width: fit-content;
+            }
+            .serv3{
+                width: fit-content;
+            }
+            img{
+                width: 5rem;
+                margin-bottom: -4rem;
+            }
+            h2{
+                font-size: 2rem;
+                margin-top: 1rem;
+            }
+            p{
+                font-size: .5rem;
+                margin: 0;
+                margin-top: -1rem;
+            }
+        }
+        .about-servicos{
+            font-size: .8rem;
+        }
+    }
+
+    .sobre-mim{
+        justify-content: space-between;
+        h1{
+            text-align: center;
+        }
+        .sobre-mim-inner{
+            padding-bottom: 2rem;
+            .left{
+                width: 100%;
+                .sobre-mim-text{
+                    font-size: .8rem;
+                    width: 100%;
+                }
+                .content{
+                    margin: 1rem auto 0 auto;
+                }
+            }
+            .right{
+                display: none;
+            }
+        }
+    }
+
+    .artigos{
+        .banners-artigos{
+            img{
+                margin-bottom: -4rem;
+            }
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                font-size: .8rem;
+            }
+        }
+        .ver-todos{
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px){
+    .hero{
+        .left{
+            img{
+                width: 15rem;
+            }
+        }
+        .right{
+            img{
+                width: 5rem;
+            }
+            h1{
+                font-size: 3rem;
+            }
+            p{
+                font-size: .8rem;
+            }
+        }
+    }
+
+    .servicos{
+        .banners{
+            h2{
+                margin-top: 2.5rem;
+                margin-bottom: 0;
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: .8rem;
+            }
         }
     }
 }

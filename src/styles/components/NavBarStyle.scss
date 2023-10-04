@@ -2,6 +2,9 @@ a{
     color: white;
     text-decoration: none;
 }
+.nav-logo{
+    display: none;
+}
 
 nav{
     background-color: #5D1212;
@@ -19,6 +22,19 @@ nav{
         justify-content: space-between;
         li{
             height: min-content;
+        }
+    }
+}
+
+@media screen and (max-width: 500px){
+    .logo-nome{
+        display: none;
+    }
+    .nav-logo{
+        display: flex;
+        img{
+            height: 2rem;
+
         }
     }
 }

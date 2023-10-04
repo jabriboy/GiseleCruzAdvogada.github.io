@@ -3,6 +3,10 @@ a {
   text-decoration: none;
 }
 
+.nav-logo {
+  display: none;
+}
+
 nav {
   background-color: #5D1212;
   padding: 0 4rem;
@@ -22,4 +26,16 @@ nav ul {
 nav ul li {
   height: -moz-min-content;
   height: min-content;
+}
+
+@media screen and (max-width: 500px) {
+  .logo-nome {
+    display: none;
+  }
+  .nav-logo {
+    display: flex;
+  }
+  .nav-logo img {
+    height: 2rem;
+  }
 }/*# sourceMappingURL=NavBarStyle.css.map */

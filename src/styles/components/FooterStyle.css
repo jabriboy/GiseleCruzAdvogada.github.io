@@ -20,4 +20,11 @@ footer ul {
 footer ul img {
   height: 5rem;
   width: 5rem;
+}
+
+@media screen and (max-width: 500px) {
+  footer ul li img {
+    width: 2rem;
+    height: 2rem;
+  }
 }/*# sourceMappingURL=FooterStyle.css.map */

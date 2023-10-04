@@ -48,14 +48,18 @@ function Home(){
         </div>
 
         <div className="sobre-mim">
-            <div className="left">
-                <h1>sobre mim</h1>
-                <p className="sobre-mim-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam, facilis dolore qui tempora at sit hic. Dicta voluptate tempore laborum non ab nesciunt quod nobis magnam debitis est consequatur temporibus, cumque velit quos eligendi. Suscipit, magnam alias aliquam unde quia molestias delectus omnis quod molestiae enim voluptatibus distinctio laborum sequi velit aut commodi animi dolores natus? Id, eaque. Sunt itaque quidem tempore, consequuntur ullam voluptates repellendus a quisquam explicabo facilis eveniet dolore ad ex sed iste beatae nulla perspiciatis assumenda tempora iusto saepe nemo! Aspernatur voluptatum provident sit dignissimos veniam, doloremque maxime voluptatem praesentium libero. Obcaecati quo velit culpa!
-                </p>
-                <WppButton/>
-            </div>
-            <div className="right">
-                <img src={foto2} alt="segunda foto" />
+            <h1>sobre mim</h1>
+            <div className="sobre-mim-inner">
+                <div className="left">
+                    <div className="vertical-align">
+                        <p className="sobre-mim-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam, facilis dolore qui tempora at sit hic. Dicta voluptate tempore laborum non ab nesciunt quod nobis magnam debitis est consequatur temporibus, cumque velit quos eligendi. Suscipit, magnam alias aliquam unde quia molestias delectus omnis quod molestiae enim voluptatibus distinctio laborum sequi velit aut commodi animi dolores.
+                        </p>
+                    </div>
+                    <WppButton/>
+                </div>
+                <div className="right">
+                    <img src={foto2} alt="segunda foto" />
+                </div>
             </div>
         </div>
 

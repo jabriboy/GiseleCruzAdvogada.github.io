@@ -30,6 +30,11 @@ nav a {
   justify-content: space-between;
   padding: 2rem 4rem;
 }
+.hero .left {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
 .hero .right {
   width: 50%;
   text-align: center;
@@ -100,28 +105,43 @@ nav a {
 .sobre-mim {
   background: #5D1212;
   padding: 1rem 4rem;
-  display: flex;
 }
 .sobre-mim h1 {
   color: #E3C9A4;
   margin-bottom: 0;
+  text-align: center;
 }
-.sobre-mim .left {
-  width: 50%;
+.sobre-mim .sobre-mim-inner {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+.sobre-mim .sobre-mim-inner .left {
+  width: 60%;
   text-align: center;
   color: white;
 }
-.sobre-mim .left .sobre-mim-text {
+.sobre-mim .sobre-mim-inner .left .vertical-align {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.sobre-mim .sobre-mim-inner .left .vertical-align .sobre-mim-text {
   margin: 0 auto;
   text-align: justify;
-  width: 80%;
+  width: 70%;
 }
-.sobre-mim .left .content {
+.sobre-mim .sobre-mim-inner .left .content {
   margin: 2rem auto;
 }
-.sobre-mim .right {
-  margin-top: 4rem;
-  margin-bottom: 3rem;
+.sobre-mim .sobre-mim-inner .right {
+  width: 40%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.sobre-mim .sobre-mim-inner .right img {
+  width: 100%;
 }
 
 .artigos {
@@ -146,4 +166,125 @@ nav a {
   color: #1E1E1E;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 700px) {
+  #root {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .hero {
+    justify-content: center;
+  }
+  .hero .left {
+    display: none;
+  }
+  .hero .right {
+    width: 100%;
+  }
+  .hero .right img {
+    width: 5rem;
+  }
+  .hero .right h3 {
+    font-size: 1rem;
+    margin-top: 0.2rem;
+  }
+  .hero p {
+    font-size: 0.8rem;
+  }
+  .servicos h1 {
+    margin: 1rem;
+  }
+  .servicos .banners {
+    display: block;
+  }
+  .servicos .banners .serv1 {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .servicos .banners .serv2 {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .servicos .banners .serv3 {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .servicos .banners img {
+    width: 5rem;
+    margin-bottom: -4rem;
+  }
+  .servicos .banners h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .servicos .banners p {
+    font-size: 0.5rem;
+    margin: 0;
+    margin-top: -1rem;
+  }
+  .servicos .about-servicos {
+    font-size: 0.8rem;
+  }
+  .sobre-mim {
+    justify-content: space-between;
+  }
+  .sobre-mim h1 {
+    text-align: center;
+  }
+  .sobre-mim .sobre-mim-inner {
+    padding-bottom: 2rem;
+  }
+  .sobre-mim .sobre-mim-inner .left {
+    width: 100%;
+  }
+  .sobre-mim .sobre-mim-inner .left .sobre-mim-text {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  .sobre-mim .sobre-mim-inner .left .content {
+    margin: 1rem auto 0 auto;
+  }
+  .sobre-mim .sobre-mim-inner .right {
+    display: none;
+  }
+  .artigos .banners-artigos img {
+    margin-bottom: -4rem;
+  }
+  .artigos .banners-artigos h2 {
+    font-size: 2rem;
+  }
+  .artigos .banners-artigos p {
+    font-size: 0.8rem;
+  }
+  .artigos .ver-todos p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .hero .left img {
+    width: 15rem;
+  }
+  .hero .right img {
+    width: 5rem;
+  }
+  .hero .right h1 {
+    font-size: 3rem;
+  }
+  .hero .right p {
+    font-size: 0.8rem;
+  }
+  .servicos .banners h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+  }
+  .servicos .banners p {
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=Home.css.map */
