@@ -258,6 +258,10 @@ nav{
 
     .artigos{
         .banners-artigos{
+            display: block;
+            .artigo-banner{
+                width: 100%;
+            }
             img{
                 margin-bottom: -4rem;
             }

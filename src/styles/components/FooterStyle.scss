@@ -22,6 +22,19 @@ footer{
     }
 }
 
+@media screen and (min-width: 500px) and (max-width: 800px){
+    footer{
+        ul{
+            li{
+                img{
+                    width: 3rem;
+                    height: 3rem;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 500px) {
     footer{
         ul{

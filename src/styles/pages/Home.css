@@ -253,6 +253,12 @@ nav a {
   .sobre-mim .sobre-mim-inner .right {
     display: none;
   }
+  .artigos .banners-artigos {
+    display: block;
+  }
+  .artigos .banners-artigos .artigo-banner {
+    width: 100%;
+  }
   .artigos .banners-artigos img {
     margin-bottom: -4rem;
   }
