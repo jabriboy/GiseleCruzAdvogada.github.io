@@ -38,4 +38,14 @@ nav ul li {
   .nav-logo img {
     height: 2rem;
   }
+}
+@media screen and (min-width: 900px) {
+  nav {
+    padding: 0 6rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  nav {
+    padding: 0 10rem;
+  }
 }/*# sourceMappingURL=NavBarStyle.css.map */

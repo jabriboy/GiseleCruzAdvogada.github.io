@@ -1,15 +1,16 @@
 import '../styles/components/ArtigoComponentStyle.css'
-import artigo from '../assets/artigo.png'
+import '../artigo-documents/artigo1'
+import { Link } from 'react-router-dom'
 
-function ArtigoComponent(){
+function ArtigoComponent(props: any){
     return(
         <>
         <div className="artigo-banner">
-            <a href="#">
-                <img src={artigo} alt="artigo" />
-                <h2>artigo 1</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti odit nihil aliquam. Ipsa nihil atque aut, non sapiente odio!</p>
-            </a>
+            <Link to={"/artigo"} state={{artigo: props}} >
+                <img src={props.img} alt="artigo" />
+                <h2>{props.titulo}</h2>
+                <p className="description">{props.sobre}</p>
+            </Link>
         </div>
         </>
     )

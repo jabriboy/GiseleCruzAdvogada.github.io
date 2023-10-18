@@ -16,13 +16,6 @@ h3 {
   letter-spacing: 0.5rem;
 }
 
-nav {
-  background: white;
-}
-nav a {
-  color: #1E1E1E;
-}
-
 .hero {
   margin-top: 4rem;
   background: #5D1212;
@@ -110,6 +103,7 @@ nav a {
   color: #E3C9A4;
   margin-bottom: 0;
   text-align: center;
+  margin-top: 1rem;
 }
 .sobre-mim .sobre-mim-inner {
   display: flex;
@@ -117,25 +111,26 @@ nav a {
   padding-bottom: 4rem;
 }
 .sobre-mim .sobre-mim-inner .left {
-  width: 60%;
+  width: 45%;
   text-align: center;
   color: white;
-}
-.sobre-mim .sobre-mim-inner .left .vertical-align {
   display: inline-flex;
   justify-content: center;
   align-items: center;
 }
-.sobre-mim .sobre-mim-inner .left .vertical-align .sobre-mim-text {
+.sobre-mim .sobre-mim-inner .left .block-content {
+  display: block;
+}
+.sobre-mim .sobre-mim-inner .left .sobre-mim-text {
   margin: 0 auto;
   text-align: justify;
-  width: 70%;
+  width: 100%;
 }
 .sobre-mim .sobre-mim-inner .left .content {
   margin: 2rem auto;
 }
 .sobre-mim .sobre-mim-inner .right {
-  width: 40%;
+  width: 45%;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -292,5 +287,33 @@ nav a {
   }
   .servicos .banners p {
     font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .hero {
+    padding: 2rem 6rem;
+  }
+  .servicos {
+    margin: 0 6rem;
+  }
+  .sobre-mim {
+    padding: 1rem 6rem;
+  }
+  .artigos {
+    margin: 1rem 6rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding: 2rem 10rem;
+  }
+  .servicos {
+    margin: 0 10rem;
+  }
+  .sobre-mim {
+    padding: 1rem 10rem;
+  }
+  .artigos {
+    margin: 1rem 10rem;
   }
 }/*# sourceMappingURL=Home.css.map */

@@ -18,8 +18,8 @@ footer ul {
   justify-content: space-around;
 }
 footer ul img {
-  height: 5rem;
-  width: 5rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 @media screen and (min-width: 500px) and (max-width: 800px) {

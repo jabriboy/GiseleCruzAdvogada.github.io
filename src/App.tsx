@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Artigos from './pages/Artigos'
 import Artigo from './pages/Artigo'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <Router>
           <Nav/>
+          <ScrollToTop/>
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/todos-artigos' element={<Artigos/>}/>

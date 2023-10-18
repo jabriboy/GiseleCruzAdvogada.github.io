@@ -15,14 +15,6 @@ h3{
     letter-spacing: .5rem;
 }
 
-
-nav{
-    background: white;
-    a{
-        color: #1E1E1E;
-    }
-}
-
 .hero{
     margin-top: 4rem;
     background: #5D1212;
@@ -109,24 +101,26 @@ nav{
         color: #E3C9A4;
         margin-bottom: 0;
         text-align: center;
+        margin-top: 1rem;
     }
     .sobre-mim-inner{
         display: flex;
         justify-content: space-between;
         padding-bottom: 4rem;
         .left{
-            width: 60%;
+            width: 45%;
             text-align: center;
             color: white;
-            .vertical-align{
-                display: inline-flex;
-                justify-content: center;
-                align-items: center;
-                .sobre-mim-text{
-                    margin: 0 auto;
-                    text-align: justify;
-                    width: 70%;
-                }
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            .block-content{
+                display: block;
+            }
+            .sobre-mim-text{
+                margin: 0 auto;
+                text-align: justify;
+                width: 100%;
             }
             .content{
                 margin: 2rem auto;
@@ -134,7 +128,7 @@ nav{
             }
         }
         .right{
-            width: 40%;
+            width: 45%;
             display: inline-flex;
             justify-content: center;
             align-items: center;
@@ -311,5 +305,34 @@ nav{
                 font-size: .8rem;
             }
         }
+    }
+}
+@media screen and (min-width: 900px) {
+    .hero{
+        padding: 2rem 6rem;
+    }
+    .servicos{
+        margin: 0 6rem;
+    }
+    .sobre-mim{
+        padding: 1rem 6rem;
+    }
+    .artigos{
+        margin: 1rem 6rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero{
+        padding: 2rem 10rem;
+    }
+    .servicos{
+        margin: 0 10rem;
+    }
+    .sobre-mim{
+        padding: 1rem 10rem;
+    }
+    .artigos{
+        margin: 1rem 10rem;
     }
 }

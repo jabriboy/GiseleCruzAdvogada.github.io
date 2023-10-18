@@ -4,8 +4,13 @@ import '../styles/pages/Home.css'
 import logo from '../assets/logoGC.png'
 import foto2 from '../assets/foto2.png'
 import foto1 from '../assets/foto1.png'
+import { Link } from "react-router-dom";
+import { artigo } from '../artigo-documents/artigo1'
+import { artigo2 } from '../artigo-documents/artigo2'
 
 function Home(){
+    const artigos = [artigo, artigo2];
+
     return(
         <>
         <div className="hero">
@@ -51,11 +56,11 @@ function Home(){
             <h1>sobre mim</h1>
             <div className="sobre-mim-inner">
                 <div className="left">
-                    <div className="vertical-align">
-                        <p className="sobre-mim-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam, facilis dolore qui tempora at sit hic. Dicta voluptate tempore laborum non ab nesciunt quod nobis magnam debitis est consequatur temporibus, cumque velit quos eligendi. Suscipit, magnam alias aliquam unde quia molestias delectus omnis quod molestiae enim voluptatibus distinctio laborum sequi velit aut commodi animi dolores.
+                    <div className="block-content">
+                        <p className="sobre-mim-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam, facilis dolore qui tempora at sit hic. Dicta voluptate tempore laborum non ab nesciunt quod nobis magnam debitis est consequatur temporibus, cumque velit quos eligendi. Suscipit, magnam alias aliquam unde quia molestias delectus omnis quod molestiae enim voluptatibus distinctio laborum sequi velit aut commodi animi dolores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam, facilis dolore qui tempora at sit hic. Dicta voluptate tempore laborum non ab nesciunt quod nobis magnam debitis est consequatur temporibus, cumque velit quos eligendi. Suscipit, magnam alias aliquam unde quia molestias delectus omnis quod molestiae enim voluptatibus distinctio laborum sequi velit aut commodi animi dolores.
                         </p>
+                        <WppButton/>
                     </div>
-                    <WppButton/>
                 </div>
                 <div className="right">
                     <img src={foto2} alt="segunda foto" />
@@ -66,14 +71,13 @@ function Home(){
         <div className="artigos">
             <h1>artigos</h1>
             <div className="banners-artigos">
-                <ArtigoComponent/>
-                <ArtigoComponent/>
+            {artigos.map((artigo) => {
+                return <ArtigoComponent key={artigo.titulo} titulo={artigo.titulo} img={artigo.img} sobre={artigo.sobre} desc={artigo.description}/>
+            })}
             </div>
-            <a href="#">
-                <div className="ver-todos">
-                    <p>ver todos</p>
-                </div>
-            </a>
+            <div className="ver-todos">
+                <Link to={"/todos-artigos"}><p>ver todos</p></Link>
+            </div>
         </div>
         </>
     )
