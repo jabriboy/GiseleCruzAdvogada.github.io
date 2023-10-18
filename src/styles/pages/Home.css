@@ -43,14 +43,22 @@ h3 {
 
 .servicos {
   text-align: center;
-  margin: 0 4rem;
+  padding: 2rem 4rem;
+  background: #5D1212;
 }
 .servicos h1 {
-  margin: 2rem;
+  margin: 0;
+  color: white;
 }
 .servicos .about-servicos {
-  margin: 2rem auto;
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: justify;
   width: 80%;
+  color: white;
+}
+.servicos .content {
+  margin: 0 auto;
 }
 .servicos .banners {
   display: flex;
@@ -62,6 +70,8 @@ h3 {
   opacity: 20%;
 }
 .servicos .banners h2 {
+  position: relative;
+  z-index: 0;
   font-family: "Dancing Script";
   text-transform: capitalize;
   font-size: 3rem;
@@ -71,7 +81,7 @@ h3 {
   color: white;
 }
 .servicos .banners .serv1 {
-  background: rgba(93, 18, 18, 0.4);
+  background: #E3C9A4;
   padding: 2rem 1rem;
   margin: 0.5rem;
   width: 30%;
@@ -83,29 +93,41 @@ h3 {
   color: #1E1E1E;
 }
 .servicos .banners .serv2 {
-  background: rgba(93, 18, 18, 0.6980392157);
+  background: #C1A071;
   padding: 2rem 1rem;
   margin: 0.5rem;
   width: 30%;
 }
+.servicos .banners .serv2 h2 {
+  color: #89550A;
+}
+.servicos .banners .serv2 p {
+  color: white;
+}
 .servicos .banners .serv3 {
-  background: #5D1212;
+  background: #C88E3C;
   padding: 2rem 1rem;
   margin: 0.5rem;
   width: 30%;
+}
+.servicos .banners .serv3 h2 {
+  color: #89550A;
+}
+.servicos .banners .serv3 p {
+  color: white;
 }
 
 .sobre-mim {
-  background: #5D1212;
   padding: 1rem 4rem;
 }
 .sobre-mim h1 {
-  color: #E3C9A4;
+  color: #1E1E1E;
   margin-bottom: 0;
   text-align: center;
   margin-top: 1rem;
 }
 .sobre-mim .sobre-mim-inner {
+  margin-top: 3rem;
   display: flex;
   justify-content: space-between;
   padding-bottom: 4rem;
@@ -113,7 +135,7 @@ h3 {
 .sobre-mim .sobre-mim-inner .left {
   width: 45%;
   text-align: center;
-  color: white;
+  color: #1E1E1E;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -127,7 +149,7 @@ h3 {
   width: 100%;
 }
 .sobre-mim .sobre-mim-inner .left .content {
-  margin: 2rem auto;
+  margin: 2rem auto 0 auto;
 }
 .sobre-mim .sobre-mim-inner .right {
   width: 45%;
@@ -160,7 +182,6 @@ h3 {
   font-size: 1.5rem;
   color: #1E1E1E;
   margin: 0;
-  padding: 0;
 }
 
 @media screen and (max-width: 700px) {
@@ -225,6 +246,7 @@ h3 {
   }
   .servicos .about-servicos {
     font-size: 0.8rem;
+    margin-bottom: 0;
   }
   .sobre-mim {
     justify-content: space-between;
@@ -268,6 +290,9 @@ h3 {
   }
 }
 @media screen and (min-width: 500px) and (max-width: 900px) {
+  h1 {
+    font-size: 3rem;
+  }
   .hero .left img {
     width: 15rem;
   }
@@ -294,7 +319,7 @@ h3 {
     padding: 2rem 6rem;
   }
   .servicos {
-    margin: 0 6rem;
+    padding: 2rem 6rem;
   }
   .sobre-mim {
     padding: 1rem 6rem;
@@ -308,7 +333,7 @@ h3 {
     padding: 2rem 10rem;
   }
   .servicos {
-    margin: 0 10rem;
+    padding: 2 rem 10rem;
   }
   .sobre-mim {
     padding: 1rem 10rem;

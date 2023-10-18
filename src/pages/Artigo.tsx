@@ -1,5 +1,6 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import '../styles/pages/Artigo.css'
+import BtnVoltar from "../components/BtnVoltar";
 
 function Artigo(){
     let { state } = useLocation();
@@ -12,6 +13,7 @@ function Artigo(){
             <img src={state.artigo.img} alt="imagem do artigo" />
             <p>{state.artigo.desc}</p>
         </article>
+        <BtnVoltar path={"/todos-artigos"}/>
         </>
     )
 }
