@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import '../styles/pages/Artigo.css'
 import BtnVoltar from "../components/BtnVoltar";
 
