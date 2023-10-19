@@ -7,6 +7,11 @@ a {
   display: none;
 }
 
+.logo-nome {
+  font-family: "GeosansLight";
+  font-size: 1.5rem;
+}
+
 nav {
   background-color: #5D1212;
   padding: 0 4rem;
@@ -36,7 +41,14 @@ nav ul li {
     display: flex;
   }
   .nav-logo img {
-    height: 2rem;
+    height: 4rem;
+    margin: -2rem 0;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1200px) {
+  .logo-nome {
+    margin-top: 0.5rem;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 900px) {

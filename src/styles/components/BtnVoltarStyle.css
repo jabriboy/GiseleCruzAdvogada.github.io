@@ -1,9 +1,13 @@
 .btn-back {
-  background: #5D1212;
+  background: rgba(93, 18, 18, 0.4);
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.5rem 2rem;
-  border-radius: 1.9375rem;
+  border-radius: 3.125rem;
+  margin: 0 auto 4rem auto;
+}
+.btn-back p {
+  font-size: 1.5rem;
   margin: 0 auto;
-  margin-bottom: 4rem;
+  color: #1E1E1E;
 }/*# sourceMappingURL=BtnVoltarStyle.css.map */

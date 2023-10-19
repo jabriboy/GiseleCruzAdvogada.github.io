@@ -1,1 +1,1 @@
-{"version":3,"sources":["BtnVoltarStyle.scss","BtnVoltarStyle.css"],"names":[],"mappings":"AAAA;EACI,mBAAA;EACA,uBAAA;EAAA,kBAAA;EACA,oBAAA;EACA,wBAAA;EACA,cAAA;EACA,mBAAA;ACCJ","file":"BtnVoltarStyle.css"}
+{"version":3,"sources":["BtnVoltarStyle.scss","BtnVoltarStyle.css"],"names":[],"mappings":"AAAA;EACI,iCAAA;EACA,uBAAA;EAAA,kBAAA;EACA,oBAAA;EACA,uBAAA;EACA,wBAAA;ACCJ;ADAI;EACI,iBAAA;EACA,cAAA;EACA,cAAA;ACER","file":"BtnVoltarStyle.css"}

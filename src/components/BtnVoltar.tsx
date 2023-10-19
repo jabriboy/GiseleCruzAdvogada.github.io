@@ -6,7 +6,7 @@ function BtnVoltar(props: any){
         <>
         <Link to={props.path}>
             <div className="btn-back">
-                voltar
+                <p>voltar</p>
             </div>
         </Link>
         </>

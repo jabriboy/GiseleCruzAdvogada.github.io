@@ -15,13 +15,13 @@ function Servicos(){
                     </p>
                 </div>
                 <div className="serv2">
-                    <img src={logo} alt="logo" />
+                    <img src={logoEscuro} alt="logo" />
                     <h2>serviço 2</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, sequi.
                     </p>
                 </div>
                 <div className="serv3">
-                    <img src={logo} alt="logo" />
+                    <img src={logoEscuro} alt="logo" />
                     <h2>serviço 3</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, sequi.
                     </p>
