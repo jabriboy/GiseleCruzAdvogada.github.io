@@ -1,4 +1,3 @@
-import logo from '../assets/logoGC.png'
 import logoEscuro from '../assets/logoGC-escuro.png'
 import WppButton from './WppButton';
 
