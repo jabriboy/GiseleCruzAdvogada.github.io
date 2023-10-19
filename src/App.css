@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: "Gangitem";
-    src: url("C:\Users\jabri\Documents\jobs\giCruz\src\assets\gangitem\Gangitem.ttf") format('truetype'), url("C:\Users\jabri\Documents\jobs\giCruz\src\assets\gangitem\Gangitem.otf") format('opentype');
+    src: url("./assets/gangitem/Gangitem.ttf") format('truetype'), url("./assets/gangitem/Gangitem.otf") format('opentype');
     
 }
 @font-face {
     font-family: 'GeosansLight';
-    src: url('C:\Users\jabri\Documents\jobs\giCruz\src\assets\geo_sans_light\GeosansLight.ttf') format('truetype');
+    src: url('./assets/geo_sans_light/GeosansLight.ttf') format('truetype');
 }
 
 body{
